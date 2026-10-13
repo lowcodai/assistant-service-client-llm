@@ -1,0 +1,27 @@
+message,attendu,obtenu,score,ok
+Où en est ma commande 18 ?,order_info,order_info,0.74,True
+Mon colis n'est toujours pas là,order_info,order_info,0.69,True
+Quand vais-je être livré ?,order_info,order_info,0.73,True
+Le paiement de ma commande est-il validé ?,order_info,order_info,0.82,True
+Est-ce que ma commande est partie ?,order_info,order_info,0.93,True
+Je voudrais suivre mon colis,order_info,order_info,0.74,True
+Statut de mes commandes en cours,order_info,order_info,0.87,True
+Date de livraison prévue de la commande 7,order_info,order_info,0.76,True
+Je souhaite annuler ma commande,human_help,human_help,0.97,True
+Pouvez-vous changer l'adresse de livraison ?,human_help,human_help,0.92,True
+Je veux un remboursement,human_help,human_help,0.92,True
+Je voudrais parler à un humain,human_help,human_help,0.66,True
+Modifier ma commande 21 svp,human_help,human_help,0.59,True
+"Mon colis est cassé, je fais quoi ?",human_help,human_help,0.9,True
+Donne-moi une recette de tiramisu,off_topic,off_topic,0.75,True
+Qui est le président de la France ?,off_topic,off_topic,0.32,True
+Écris une chanson sur l'été,off_topic,off_topic,0.54,True
+Explique la blockchain,off_topic,off_topic,0.19,True
+Quel est le meilleur smartphone en ce moment ?,off_topic,off_topic,0.22,True
+Aide-moi à rédiger mon CV,off_topic,off_topic,0.55,True
+Résous cette équation : 2x+3=11,off_topic,off_topic,0.29,True
+Quel temps fait-il à Paris ?,off_topic,off_topic,0.53,True
+Raconte-moi une histoire pour enfants,off_topic,off_topic,0.34,True
+"Honte à vous, vous êtes des escrocs",tone_complaint,tone_complaint,0.91,True
+"Je suis furieux, répondez-moi !",tone_complaint,tone_complaint,0.86,True
+Comment apprendre la guitare ?,off_topic,off_topic,0.12,True

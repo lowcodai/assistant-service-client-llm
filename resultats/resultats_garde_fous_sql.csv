@@ -1,0 +1,18 @@
+cas,sql,attendu,obtenu,ok
+SELECT valide sur my_orders,"SELECT order_id, status FROM my_orders WHERE order_id = 1",accepté,accepté,True
+Agrégat (COUNT),SELECT COUNT(*) AS n FROM my_orders,accepté,accepté,True
+CTE sur my_orders,WITH x AS (SELECT * FROM my_orders) SELECT order_id FROM x,accepté,accepté,True
+Table users,SELECT * FROM users,refusé,refusé,True
+Table orders (base complète),SELECT * FROM orders,refusé,refusé,True
+sqlite_master,SELECT name FROM sqlite_master,refusé,refusé,True
+DROP TABLE,DROP TABLE my_orders,refusé,refusé,True
+DELETE,DELETE FROM my_orders,refusé,refusé,True
+UPDATE,UPDATE my_orders SET status='delivered',refusé,refusé,True
+Deux instructions,SELECT 1; DROP TABLE my_orders,refusé,refusé,True
+ATTACH DATABASE,ATTACH DATABASE '/etc/passwd' AS x,refusé,refusé,True
+PRAGMA,PRAGMA table_info(my_orders),refusé,refusé,True
+load_extension,SELECT load_extension('x'),refusé,refusé,True
+UNION vers autre table,SELECT order_id FROM my_orders UNION SELECT user_id FROM orders,refusé,refusé,True
+Commentaire SQL,SELECT order_id FROM my_orders -- WHERE,refusé,refusé,True
+Isolation : le bac à sable ne contient que les lignes du client,SELECT COUNT(*) FROM my_orders,5 lignes,5 lignes,True
+Isolation : commande d'un autre client introuvable,... WHERE order_id = 1,0 ligne,0 ligne(s),True

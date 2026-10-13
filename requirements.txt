@@ -1,0 +1,8 @@
+jupyterlab
+ipykernel
+langchain
+langchain-openai
+langchain-core
+pandas
+numpy
+sentence-transformers

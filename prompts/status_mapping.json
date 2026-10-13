@@ -1,0 +1,5 @@
+{
+  "invoiced": "Commande validée et payée, mais pas encore expédiée.",
+  "shipped": "Commande expédiée, mais pas encore reçue.",
+  "delivered": "Commande reçue par le client."
+}

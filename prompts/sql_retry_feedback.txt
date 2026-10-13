@@ -1,0 +1,2 @@
+Ta requête précédente a été rejetée ou a échoué : {error}
+Corrige-la en respectant strictement les règles (un seul SELECT sur my_orders).

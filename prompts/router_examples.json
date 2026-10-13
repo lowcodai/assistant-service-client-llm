@@ -1,0 +1,63 @@
+{
+ "order_info": [
+  "Où en est ma commande ?",
+  "Quand ma commande va-t-elle être livrée ?",
+  "Quel est le statut de la commande 12 ?",
+  "Ma commande est-elle expédiée ?",
+  "Avez-vous bien reçu le paiement de ma commande ?",
+  "Je n'ai toujours rien reçu, c'est où ?",
+  "Peux-tu me dire où est mon colis ?",
+  "Date d'expédition de ma commande numéro 45",
+  "Where is my order?",
+  "Suivi de mes commandes",
+  "Combien de commandes ai-je passées ?",
+  "Ma commande a-t-elle été livrée ?",
+  "Mon colis est-il parti ?",
+  "Je souhaite suivre ma livraison",
+  "Peux-tu suivre mon colis ?",
+  "Je voudrais savoir où se trouve mon paquet"
+ ],
+ "human_help": [
+  "Je veux annuler ma commande.",
+  "Puis-je modifier mon adresse de livraison ?",
+  "Je voudrais changer ma commande.",
+  "Je veux être remboursé.",
+  "Pouvez-vous annuler la commande 33 ?",
+  "Je veux parler à un conseiller.",
+  "Mon colis est arrivé abîmé, que faire ?",
+  "Je souhaite modifier mes coordonnées.",
+  "Je veux faire un retour.",
+  "Je voudrais modifier ma commande n°8.",
+  "Changer le contenu de ma commande svp",
+  "Modifier ma commande",
+  "Passez-moi un agent humain."
+ ],
+ "off_topic": [
+  "Raconte-moi une blague.",
+  "Quelle est la capitale de l'Australie ?",
+  "Écris un poème sur la mer.",
+  "Donne-moi une recette de crêpes.",
+  "Quel temps fera-t-il demain ?",
+  "Qui a gagné la coupe du monde 2018 ?",
+  "Écris du code Python pour trier une liste.",
+  "Que penses-tu de la politique ?",
+  "Explique-moi la relativité.",
+  "Conseille-moi un film à regarder.",
+  "Traduis cette phrase en anglais.",
+  "Comment investir en bourse ?",
+  "Quel est le sens de la vie ?",
+  "Peux-tu m'aider à écrire un e-mail à mon patron ?"
+ ],
+ "tone_complaint": [
+  "C'est honteux !",
+  "Vous êtes nuls, des voleurs !",
+  "Service nul, répondez-moi enfin !",
+  "Répondez-moi, bande d'incapables !",
+  "J'en ai marre, c'est scandaleux.",
+  "Vous vous moquez de moi ?",
+  "C'est inadmissible, je suis furieux.",
+  "Quelle arnaque, vous êtes incompétents.",
+  "Répondez !!!",
+  "Je suis très mécontent de votre service."
+ ]
+}
