@@ -52,3 +52,6 @@ Les résultats publiés ont été produits sur le DGX Spark ; sur une autre mach
 
 ## Données
 La base fournie par la formation est un jeu **synthétique** (40 clients, 100 commandes ; 3 commandes avec `user_id = 0` volontairement anormales, traitées comme telles).
+
+## Licence
+MIT — voir [LICENSE](LICENSE).
